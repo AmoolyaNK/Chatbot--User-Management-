@@ -1,0 +1,12 @@
+
+langchain==0.2.16
+langchain-community==0.2.16
+langchain-openai==0.1.23
+faiss-cpu==1.8.0.post1
+python-dotenv==1.0.1
+pypdf==4.3.1
+pytesseract==0.3.10
+Pillow==10.4.0
+tqdm==4.66.5
+openai==1.109.1
+sounddevice==0.5.5

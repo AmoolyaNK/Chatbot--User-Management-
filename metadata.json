@@ -1,0 +1,4 @@
+{
+  "provider": "openai",
+  "embedding_model": "text-embedding-3-small"
+}
