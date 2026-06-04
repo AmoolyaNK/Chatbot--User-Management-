@@ -53,8 +53,7 @@ VOICE_MIN_PEAK_ABOVE_NOISE = 250
 VOICE_SILENCE_ABOVE_NOISE = 180
 VOICE_SILENCE_PEAK_RATIO = 0.22
 CONTACT_DETAILS = (
-    "Support@Prowork.ie, Wolf@Prowork.ie, "
-    "or 1 Upper New Street, Wicklow Town, A67 HK35"
+    ""
 )
 SUPPORT_FALLBACK = (
     "I do not have enough information to answer that. For more detailed "
@@ -64,29 +63,13 @@ PARTIAL_SUPPORT_FALLBACK = (
     f"For the remaining details, please contact ProWork Support at {CONTACT_DETAILS}."
 )
 OUT_OF_SCOPE_RESPONSE = (
-    "I'm designed to help with ProWork and ProWork User Manager, so I can't "
-    "answer general questions like that. Please ask a ProWork question, or contact "
-    f"ProWork Support at {CONTACT_DETAILS} for more detailed information."
+    "I'm designed to help with , so I can't "
+    "answer general questions like that. Please ask a defined question, or contact "
+    f" at {CONTACT_DETAILS} for more detailed information."
 )
 PREDEFINED_QUESTIONS = [
-    "What is ProWork?",
-    "How do I contact ProWork?",
-    "What is User Manager?",
-    "Introduction to User Management",
-    "How do I add a new user?",
-    "How do I edit an existing user?",
-    "How do I add and edit a new user?",
-    "What is dashboard access?",
-    "What is a Lite User?",
-    "What is a Full User?",
-    "What is an Unsubscribed User?",
-    "How do I reset a password?",
-    "How do access levels work?",
-    "Which user details can be changed after user creation?",
-    "How do I add an area?",
-    "How do I add a department?",
-    "How do I add areas and departments?",
-    "How do areas and departments work?",
+    "",
+    "
 ]
 MENU_REQUESTS = {
     "hi",
@@ -163,13 +146,13 @@ INTENT_FILLER_WORDS = {
     "sir",
 }
 USER_MANAGER_SCOPE_TERMS = {
-    "prowork",
-    "prowork support",
-    "what is prowork",
-    "what prowork does",
+    "",
+    "",
+    "",
+    "",
     "product",
     "contact",
-    "contact prowork",
+    "",
     "support",
     "address",
     "email",
@@ -228,7 +211,7 @@ USER_MANAGER_SCOPE_TERMS = {
 VALID_INTENTS = {"menu", "thanks", "app_question", "out_of_scope"}
 VOICE_STOP_COMMANDS = {"stop", "s", "skip"}
 
-parser = argparse.ArgumentParser(description="ProWork User Manager terminal chatbot")
+parser = argparse.ArgumentParser(description="User Manager terminal chatbot")
 parser.add_argument(
     "--voice",
     action="store_true",
